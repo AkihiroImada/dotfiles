@@ -1,4 +1,6 @@
 " setting
+"バックスペース有効化
+set backspace=indent,eol,start
 "文字コードをUFT-8に設定
 set fenc=utf-8
 " バックアップファイルを作らない
@@ -61,6 +63,11 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+" キーマップ
+inoremap jj <ESC>
+
+"dein setting
 
 if !&compatible
   set nocompatible
