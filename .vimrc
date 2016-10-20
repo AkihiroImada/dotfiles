@@ -102,3 +102,6 @@ if has('vim_starting') && dein#check_install()
   call dein#install()
 endif
 " }}}
+
+" autocomplcache setting
+let g:neocomplcache_enable_at_startup = 1

@@ -12,6 +12,9 @@ repo = 'Shougo/context_filetype.vim'
 repo = 'cespare/vim-toml'
 on_ft = 'toml'
 
+[[plugins]]
+repo = 'Shougo/neocomplcache'
+
 [[plugins]] # カラースキーマ
 repo = 'w0ng/vim-hybrid'
 hook_add = '''
